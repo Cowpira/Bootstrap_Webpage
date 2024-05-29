@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Warnes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.scrollSpy{
+    position: relative;
+    overflow: auto;
+    height: 520px;
+    
+}
+
+.carouselText {
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Warnes', cursive;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  }
+
+.bantxt{
+      color: black;
+      font-size: 22px;
+      font-weight: bold;
+      font-family: 'Indie Flower', cursive;
+  }
+
+.menuText{
+    color:orange;
+    font-size: 16px;
+    font-weight: 200;
+}
+.menuText:hover{
+    color: aliceblue;
+    transition: all 1s ease-in-out;
+}
+
+.btn:hover > .icon{
+    color: orange;
+    transition: all 2.3s ease-in-out;
+    animation: flash 3s infinite;
+}
+
+.formContact{
+    width: 100%;
+    margin-top: 85px;
+}
+
+.footerstyle{
+    margin: 0;
+    background-color: #343a40;
+}
+
+.footLinks{
+    color: dimgrey;
+    text-decoration: none;
+}
+
+.faceLink:hover{
+    color: dodgerblue;
+    transition: ease-in;
+    transition-delay: 3ms;
+}
+
+.youtLink:hover{
+    color: firebrick;
+    transition: ease-in;
+    transition-delay: 3ms;
+}
+
+.tweetLink:hover{
+    color: deepskyblue;
+    transition: ease-in;
+    transition-delay: 3ms;
+}
+
+.message{
+    height: 115px;
+}
+
+/*=============== EVENTOS DE TELAS XS ================ */
+@media (max-width: 575.98px) {
+    
+ }
+
+/*===============  TELAS SM ================ */
+@media(min-width:576px)
+{
+    .margCursos{
+        margin-left: -70px;
+        margin-right: -70px;
+    }
+
+    .cardLayout{
+        margin-left: -70px;
+        margin-right: -70px;
+    }      
+}
+
+/*===============  TELAS MD ================ */
+@media (min-width: 768px) {
+    .margCursos{
+        margin-left: -70px;
+        margin-right: -70px;   
+    }
+
+    .cardLayout{
+        margin-left: -95px;
+        margin-right: -95px;
+    }
+  }
+  
+  /*===============  TELAS LG ================ */
+  @media (min-width: 992px) {
+    .margCursos{
+        margin-top: 75px;
+        margin-left: -50px;
+        margin-right: -50px;         
+    }
+
+    .cardLayout{
+        margin-left: -60px;
+        margin-right: -60px;   
+    }    
+  }
+  
+  /*===============  TELAS XL ================ */
+  @media (min-width: 1200px) {
+    .margCursos{
+        margin-left: -55px;
+        margin-right: -50px;         
+    }
+  }
+
+/*=============== EFEITO BOTAO PISCANDO ================ */
+.live-streaming {
+    animation: live-streaming-pulse 0.9s infinite;
+}
+  
+
+@keyframes live-streaming-pulse {
+    0% {
+        box-shadow: 0px 0px 0px 0px #343a40;
+    }
+    70% {
+        box-shadow: 0px 0px 0px 8px rgba(123,172,59,0);
+    }
+
+    100% {
+        box-shadow: 0px 0px 0px 0px rgba(123,172,59,0);
+    }
+}

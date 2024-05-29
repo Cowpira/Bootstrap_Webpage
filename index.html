@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Webpage w/ Bootstrap 4</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.bundle.js"></script>    
+</head>
+<body>
+        <!--==============================================MENU=============================================-->
+    <nav id="menu" class="navbar navbar-expand-md text-primary bg-dark fixed-top">
+        <a href="index.html"><image src="images/logo.png" class="navbar-brand mb-0" /></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuSite">
+            <i class="fa fa-bars"></i>
+		</button>
+
+        <div class="collapse navbar-collapse" id="menuSite">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle menuText" data-toggle="dropdown" id="solution">SOLUÇÕES</a>
+
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">
+                                <i class="fas fa-desktop mr-1 text-success"></i>WEBSITES</a>
+                        <a href="#" class="dropdown-item">
+                                <i class="fas fa-shopping-cart mr-1 text-primary"></i>E-COMMERCE</a>
+                        <a href="#" class="dropdown-item">
+                                <i class="fas fa-mobile-alt mr-1 text-warning"></i>APLICAÇÕES</a>
+                        <a href="#" class="dropdown-item">
+                                <i class="fab fa-app-store-ios mr-1 text-muted"></i>APP's</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link menuText">PORTIFÓLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contato.html" class="nav-link menuText">CONTATO</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle menuText" data-toggle="dropdown" id="navDrop">SOCIAL</a>
+
+                    <div class="dropdown-menu">                        
+                        <a href="#" class="dropdown-item">
+                            <i class="fab fa-facebook text-primary mr-1"></i>FACEBOOK</a>
+                        <a href="#" class="dropdown-item">
+                            <i class="fab fa-twitter text-info mr-1"></i>TWEETER</a>
+                        <a href="#" class="dropdown-item">
+                            <i class="fab fa-youtube text-danger mr-1"></i>YOUTUBE</a>
+                    </div>
+                </li>
+            </ul>
+
+            <form class="form-inline">
+                <input type="search" class="form-control ml-2" name="" placeholder="Buscar...">
+                <button class="btn btn-warning" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </nav>
+
+    <!--==============================================CAROUSEL=============================================-->
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li class="active" data-targe="#carouselSite" data-slide-to="0"></li>
+            <li data-targe="#carouselSite" data-slide-to="1"></li>
+            <li data-targe="#carouselSite" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/01.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block text-dark">
+                    <h1 class="carouselText animated bounceIn">Aprenda WebDesigner</h1>
+                    <p class="animated fadeInDown delay-1s bantxt">Seja um desenvolvedor Web, aprenda tecnicas com bootstrap, html, css e outras
+                        linguagens!!!</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/02.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block text-dark">
+                    <h1 class="carouselText animated bounceIn delay-1s">Desenvolvimento Web</h1>
+                    <p class="animated fadeInDown delay-2s bantxt">Seja um desenvolvedor Web, aprenda tecnicas com bootstrap, html, css e outras
+                        linguagens!!!</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/03.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block text-dark">
+                    <h1 class="carouselText animated bounceIn delay-2s">Linguagem de Progrmação</h1>
+                    <p class="animated fadeInDown delay-2s bantxt">Seja um desenvolvedor Web, aprenda bootstrap, html, css3 e outras
+                        linguagens!!!</p>
+                </div>
+            </div>
+
+            <a href="#carouselSite" role="button" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">ANTERIOR</span>
+            </a>
+
+            <a href="#carouselSite" role="button" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">PRÓXIMO</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center my-5">
+                <h1 class="display-3">Bem Vindos á Delivery-TI</h1>
+                <p>
+                    Seja bem vindo a empresa de desenvolvimento Delivery-TI, uma empresa de Desenvolvimento
+                    web nos padrões mais atuais e com as melhores tecnicas de desenvolvimento para seus negocios.
+                </p>
+            </div>
+        </div>
+
+    <!--==============================================CARDS=============================================-->
+        <div class="row mt-3 cardLayout">
+            <div class="col-sm-4 animated slideInLeft slower" data-wow-delay="0.8s">
+                <div class="card">
+                    <img src="images/02.jpg" class="card-img-top"/>
+                    
+                    <div class="card-body">                        
+                        <h4 class="card-title text-primary">Design Grafico</h4>
+                        <strong class="card-subtitle mb-2 text-muted">Aprenda Design Grafico</strong>
+                        <p class="cart-text text-justify animated fadeInDown" data-wow-delay="2.8s">
+                            It is a long established fact that a reader will be distracted by the readable content of 
+                            a page when looking at its layout.
+                        </p>
+                        <div class="row">
+                            <a href="#" class="col-6 col-lg-4 btn btn-outline-secondary ml-lg-5">INICIAR</a>
+                            <a href="#" data-toggle="modal" data-target="#modWeb" 
+                               class="col-6 col-lg-4 btn btn-outline-secondary ml-lg-3">SAIBA 
+                               <span class="icon fa fa-plus-circle"></span></a>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-sm-4 animated fadeInDown slow" data-wow-delay="0.5s">
+                <div class="card">
+                    <img src="images/03.jpg" class="card-img-top" />
+                    
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">Programação O.O.</h4>
+                        <strong class="card-subtitle mb-2 text-muted">Aprenda Programar O. O.</strong>
+                        <p class="card-text text-justify animated fadeInDown" data-wow-delay="2.8s">
+                            It is a long established fact that a reader will be distracted by the readable content 
+                            of a page when looking at its layout.
+                        </p>
+                        <div class="row">
+                            <a href="#" class="col-6 col-lg-4 btn btn-outline-secondary ml-lg-5">INICIAR</a>
+                            <a href="#" data-toggle="modal" data-target="#modPoo" 
+                                class="col-6 col-lg-4 btn btn-outline-secondary ml-lg-3">SAIBA 
+                                <span class="icon fa fa-plus-circle"></span></a>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-sm-4 animated slideInRight slower" data-wow-delay="0.8s">
+                <div class="card">
+                    <img src="images/01.jpg" class="card-img-top" />
+                    
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">Programação Front End</h4>
+                        <strong class="card-subtitle mb-2 text-muted">Aprenda Front-End avançado</strong>
+                        <p class="card-text text-justify animated fadeInDown" data-wow-delay="2.8s">
+                            It is a long established fact that a reader will be distracted by the readable content 
+                            of a page when looking at its layout.
+                        </p>               
+                        <div class="row">
+                            <a href="#" class="col-6 col-lg-4 col-lg-4 btn btn-outline-secondary ml-lg-5">INICIAR</a>
+                            <a href="#" data-toggle="modal" data-target="#modFront" 
+                                class="col-6 col-lg-4 btn btn-outline-secondary ml-lg-3">SAIBA
+                                <span class="icon fa fa-plus-circle"></span></a>
+                        </div>                                                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <!--==============================================CURSOS DESCRICAO=============================================-->
+        <div class="row margCursos">
+            <div class="col-12 col-sm-2">
+                <nav id="navBarVertical" class="row navbar navbar-link bg-white border d-none d-sm-block">
+                    <nav class="nav nav-pills nav-tabs flex-column text-center">
+                        
+                        <label class="text-center my-2" href="#web1">Web-Design</label>
+                        <nav class="nav nav-pills flex-column">                            
+                            <a class="nav-link active" href="#web1-1">Web-Sites</a>                              
+                            <a class="nav-link" href="#web1-2">Templates</a>                              
+                        </nav>                           
+
+                        <label class="text-center my-2" href="#prog2">Programação</label>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link" href="#prog2-1">C#</a>
+                            <a class="nav-link" href="#prog2-2">asp.NET</a>
+                            <a class="nav-link" href="#prog2-3">Java</a>
+                        </nav>
+
+                        <label class="text-center my-2" href="#graf3">Designer Gráfico</label>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link" href="#graf3-1">CSS3</a>
+                            <a class="nav-link" href="#graf3-2">HTML5</a>  
+                            <a class="nav-link" href="#graf3-3">jQuery</a>                             
+                        </nav>
+                    </nav>                                        
+                </nav>                
+            </div>           
+        
+            <div class="col-12 col-sm-10">
+                <div class="scrollSpy" data-spy="scroll" data-target="#navBarVertical" data-offset="10">                    
+                    <div id="web1-1" class="container-fluid">                        
+                        <h2 class="text-primary"><i class="fas fa-pencil-ruler mr-2"></i>Web-Designe</h2>
+                        <h5>Criando Sites</h4>
+                        <div class="media">
+                            <img class="align-self-start mr-1 mt-2" alt="" src="images/webdesign.png" />              
+                            <div class="media-body">                                                        
+                                <p class="lead text-justify">
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when 
+                                    looking at its layout. The ess normal distribution of letters, as opposed to using 'Content here, 
+                                    content here', making it look like readable English. Many desktop publishing packages and web page e. 
+                                    Various versions have evolved over the years, sometimes by accident.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="web1-2" class="container-fluid">
+                        <h5>Criando Templates</h5>
+                        <div class="media">
+                            <div class="media-body">
+                                <p class="lead text-justify">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+                                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. L
+                                    orem Ipsum passages.
+                                </p>
+                            </div>
+                            <img class="ml-1" alt="" src="images/template.png" />
+                        </div>
+                    </div>
+
+                    <h2 class="text-primary"><i class="far fa-file-code mr-2 mt-3"></i>Programação</h2>
+                    <div id="prog2-1" class="container-fluid">                        
+                        <h5>Curso de C#</h4>
+                        <div class="media">                       
+                            <div class="media-body">                            
+                                <p class="lead text-justify">
+                                    <img class="align-content-end mr-2" alt="" src="images/csharp.png" />
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when 
+                                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution                        
+                                    and a search for 'lorem ipsum' will uncover many web sites still in their infancy, 
+                                    evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="prog2-2" class="media container-fluid">
+                        <div class="media-body">
+                            <h5>Curo de asp.NET</h4>                            
+                            <p class="lead text-justify">                                    
+                                It is a long established fact that a reader will be distracted by the readable content of a page when 
+                                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution                                 
+                                'Content here, 'lorem ipsum' will uncover many web infancy. Various versions have evolved over the years, 
+                                sometimes by accident, sometimes on purpose (injected humour and the like).
+                            </p>
+                        </div>
+                        <img class="ml-2 mt-5 mr-1" alt="" src="images/java.jpg" />
+                    </div>
+
+                    <div id="prog2-3" class="container-fluid mt-4">
+                        <h5>Curso de Java</h4>
+                        <div class="media">                    
+                            <img class="align-self-start mr-1 mt-3" alt="" src="images/js.jpg" />
+                            <div class="media-body">
+                                <p class="lead text-justify">
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when 
+                                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
+                                    of letters, as opposed to using, making it look like readable English. will uncover many web sites still 
+                                    in their infancy. Various versions have.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="text-primary"><i class="far fa-object-group mr-2 mt-3"></i>Designer Gráfico</h2>
+                    
+                    <div id="graf3-1" class="container-fluid mt-4">
+                        <h5>Curso de CSS3</h4>
+                        <div class="media">                   
+                            <div class="media-body">
+                                <p class="lead text-justify">
+                                    <img class="align-self-center mr-1 mt-3" alt="" src="images/css.png" />
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when 
+                                    looking at its layout. The point of using Lorem Ipsum is that it distribution of letters, as opposed 
+                                    to using 'Content here, content here', Lorem Ipsum and a search for 'lorem ipsum' will uncover many 
+                                    web sites still in their infancy.                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="graf3-2" class="media container-fluid mt-4">
+                        <div class="media-body">
+                            <h5>Curso de HTML5</h5>
+                            <p class="lead text-justify">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a 
+                                type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
+                                essentially unchanged. 
+                            </p>
+                        </div>
+                        <img class="align-self-end mr-1 mt-3" alt="" src="images/html.png" />
+                    </div>
+
+                    <div id="graf3-3" class="container-fluid mt-4">
+                        <h5>Curso de jquery</h5>
+                        <div class="media">
+                            <img class="align-self-start mr-1 mt-3" alt="" src="images/jq.png" />
+                            <div class="media-body">
+                                <p class="lead text-justify">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a 
+                                    type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br/>     
+    </div>
+
+    <div class="jumbotron jumbotron-fluid mt-5 mb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4">Aprenda já Web Design</h1>
+                    <div class="w-100 mt-4 mb-3"> <hr> </div>
+                    <p class="lead">
+                        It is a long established fact that a reader will be distracted by the readable content 
+                        of a page when looking at its layout.
+                    </p>
+                </div>                
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-pills justify-content-center mb-5" id="pills-nav" role="tablist">
+                        <li class="nav-item mr-3">
+                            <a class="nav-link btn-lg btn-dark live-streaming" id="nav-01" href="#nav-item-01" data-toggle="pill">CADASTRE-SE JÁ</a>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link btn-lg active btn-dark" id="nav-02" href="#nav-item-02" data-toggle="pill">CONTATE-NOS</a>
+                        </li>
+
+                        <li class="nav-item mr-3">
+                            <a class="nav-link btn-lg btn-dark" id="nav-03" href="#nav-item-03" data-toggle="pill">NOSSOS CURSOS</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="nav-pills-content">
+                        <div class="tab-pane fade show" id="nav-item-01" role="tabpanel">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Yyf4vtNjdgc"></iframe>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <h3 class="display-4 text-white"><i class="fas fa-dollar-sign"></i> Custo Beneficio</h3>
+                                    <p class="lead mt-3 text-justify">
+                                        It is a long established fact that a reader will be distracted by the readable content of a page when 
+                                        looking at its layout. The ess normal distribution of letters, as opposed to using 'Content here, 
+                                        content here', making it look like readable English. Many desktop publishing packages and web page e. 
+                                        Various versions have evolved over the years, sometimes by accident.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="tab-pane fade show active" id="nav-item-02" role="tabpanel">
+                            <div class="row justify-content-center">
+                                <img class="img-fluid justify-content-center mt-4" src="images/contato.jpg" alt="">
+
+                                <p class="lead mt-3 text-justify">
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when 
+                                    looking at its layout. The ess normal distribution of letters, as opposed to using 'Content here, 
+                                    content here', making it look like readable English. Many desktop publishing packages and web page e. 
+                                    Various versions have evolved over the years, sometimes by accident.
+                                </p>
+                            </div>                            
+                        </div>
+                    
+                        <div class="tab-pane fade show" id="nav-item-03" role="tabpanel">
+                            <div class="row cardLayout">
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <img src="images/website.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Design Web</h5>
+                                            <p class="card-text text-justify">
+                                                Some quick example text to build on the card title and 
+                                                make up the bulk of the card's content.
+                                            </p>
+                                        </div>
+                                        <ul class="list-group list-group-flush text-center">
+                                            <li class="list-group-item">Web Sites</li>
+                                            <li class="list-group-item">Templates</li>
+                                            <li class="list-group-item">Hot-Pages</li>
+                                        </ul>                  
+                                    </div>
+                                </div>                            
+
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <img src="images/back.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Programação</h5>
+                                            <p class="card-text text-justify">
+                                                Some quick example text to build on the card title and 
+                                                make up the bulk of the card's content.
+                                            </p>
+                                        </div>
+                                        <ul class="list-group list-group-flush text-center">
+                                            <li class="list-group-item">C#</li>
+                                            <li class="list-group-item">asp.NET</li>
+                                            <li class="list-group-item">JavaScript</li>
+                                        </ul>
+                                    </div>                            
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <img src="images/front.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Design Gráfico</h5>
+                                            <p class="card-text text-justify">
+                                                Some quick example text to build on the card title and 
+                                                make up the bulk of the card's content.
+                                            </p>                                            
+                                        </div>
+                                        <ul class="list-group list-group-flush text-center">
+                                            <li class="list-group-item">CSS3</li>
+                                            <li class="list-group-item">HTML5</li>
+                                            <li class="list-group-item">jQuery</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <!--==============================================MODAIS=============================================-->
+    <div id="modWeb" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-dark ml-5">DESIGN GRÁFICO</h5>
+
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>                
+                </div>
+
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <p class="lead text-justify">
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+                            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in 
+                            their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                            <img src="images/02.jpg" class="mt-3" width="100%" alt="" />
+                        </p>
+                    </div>
+                </div>
+
+                <div class="modal-footer">                
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">
+                        FECHAR
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modPoo" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-dark ml-5">PROGROMAÇÃO ORIENTADA/ OBJETOS</h5>
+
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>                
+                </div>
+
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6">                                 
+                                <p class="lead text-justify">
+                                    <img src="images/website.jpg" alt="" />                                                                    
+                                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those 
+                                    interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
+                                    are also reproduced in their exact original form, accompanied by English.                                   
+                                </p>
+                            </div>
+
+                            <div class="col-6">                                
+                                <p class="lead text-justify">                                    
+                                    The standard chursk test more than 200 hundreds 1500s is reproduced below for those 
+                                    interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
+                                    are also reproduced in their exact original form, accompanied by English.                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">                
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">
+                        FECHAR
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modFront" class="modal fade " tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-dark ml-5">FRONT END</h5>
+
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>                
+                </div>
+
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <h4 class="text-muted text-center">Tópicos Abordados</h4>
+                        <p class="lead text-justify">
+                            <img src="images/02.jpg" class="mt-3" width="100%" alt="" />
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+                            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in 
+                            their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.                                
+                        </p>
+                    </div>
+                </div>
+
+                <div class="modal-footer">                
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">
+                        FECHAR
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row text-center footerstyle">        
+        <div class="container mt-4 mb-5">
+            <div class="row">
+                <div class="col text-center">
+                    <a href="#" class="footLinks faceLink"><i class="fab fa-facebook"></i>
+                    <span class="col-sm-12"><br/>Facebook</span></a>
+                </div>
+                <div class="col text-center">
+                    <a href="#" class="footLinks youtLink"><i class="fab fa-youtube"></i>
+                    <span class="col-sm-12"><br/>Youtube</span></a>
+                </div>
+                <div class="col text-center">
+                    <a href="#" class="footLinks tweetLink"><i class="fab fa-twitter"></i>
+                    <span class="col-12"><br/>Twitter</span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12">
+            <img src="images/logo.png" alt="" /><br/><br/>
+        </div>      
+    </div>
+</body>
+</html>
